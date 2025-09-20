@@ -8,12 +8,12 @@
     <meta name="generator" content="VitePress v1.6.4">
     <link rel="preload stylesheet" href="/kimo-blogger/assets/style.D_Rw80WP.css" as="style">
     <link rel="preload stylesheet" href="/kimo-blogger/vp-icons.css" as="style">
-    <script type="module" src="/kimo-blogger/assets/chunks/metadata.7a679c56.js"></script>
-    <script type="module" src="/kimo-blogger/assets/app.DDqVbTDB.js"></script>
+    <script type="module" src="/kimo-blogger/assets/chunks/metadata.5b45bb97.js"></script>
+    <script type="module" src="/kimo-blogger/assets/app.vgy0iz_s.js"></script>
     <link rel="preload" href="/kimo-blogger/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="modulepreload" href="/kimo-blogger/assets/chunks/theme.Df8tnFG0.js">
+    <link rel="modulepreload" href="/kimo-blogger/assets/chunks/theme.z74tb59Y.js">
     <link rel="modulepreload" href="/kimo-blogger/assets/chunks/framework.DogoNsEl.js">
-    <link rel="modulepreload" href="/kimo-blogger/assets/articles_server_docker_20.Docker容器文档.md.BRNUvsSN.lean.js">
+    <link rel="modulepreload" href="/kimo-blogger/assets/articles_server_docker_20.Docker容器文档.md.GyxHhbJG.lean.js">
     <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
     <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
   </head>
@@ -60,14 +60,14 @@
       d="m512 863.36 384-54.848v-638.72L525.568 222.72a96 96 0 0 1-27.136 0L128 169.792v638.72zM137.024 106.432l370.432 52.928a32 32 0 0 0 9.088 0l370.432-52.928A64 64 0 0 1 960 169.792v638.72a64 64 0 0 1-54.976 63.36l-388.48 55.488a32 32 0 0 1-9.088 0l-388.48-55.488A64 64 0 0 1 64 808.512v-638.72a64 64 0 0 1 73.024-63.36z"
     ></path>
     <path fill="currentColor" d="M480 192h64v704h-64z"></path>
-  </svg></i><a title="文章字数" class="hover-color" aria-label="文章字数">654</a></div><div class="flx-center"><i class="tk-icon" style="--icon-color-hover:var(--tk-theme-color);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  </svg></i><a title="文章字数" class="hover-color" aria-label="文章字数">646</a></div><div class="flx-center"><i class="tk-icon" style="--icon-color-hover:var(--tk-theme-color);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
     <path
       fill="currentColor"
       d="M512 896a384 384 0 1 0 0-768 384 384 0 0 0 0 768m0 64a448 448 0 1 1 0-896 448 448 0 0 1 0 896"
     ></path>
     <path fill="currentColor" d="M480 256a32 32 0 0 1 32 32v256a32 32 0 0 1-64 0V288a32 32 0 0 1 32-32"></path>
     <path fill="currentColor" d="M480 512h256q32 0 32 32t-32 32H480q-32 0-32-32t32-32"></path>
-  </svg></i><a title="预计阅读时长" class="hover-color" aria-label="预计阅读时长">3.4m</a></div><!--v-if--></div></div><!--[--><!--]--><!----><!----><!----><!--v-if--><!--[--><div class="tk-sidebar-trigger" title="侧边栏展开/折叠" role="button" aria-label="侧边栏展开/折叠"><div class="tk-right-bottom-button__button"><i class="tk-icon" style="--icon-color-hover:var(--tk-theme-color);" aria-hidden="true"><svg
+  </svg></i><a title="预计阅读时长" class="hover-color" aria-label="预计阅读时长">3.3m</a></div><!--v-if--></div></div><!--[--><!--]--><!----><!----><!----><!--v-if--><!--[--><div class="tk-sidebar-trigger" title="侧边栏展开/折叠" role="button" aria-label="侧边栏展开/折叠"><div class="tk-right-bottom-button__button"><i class="tk-icon" style="--icon-color-hover:var(--tk-theme-color);" aria-hidden="true"><svg
     viewBox="0 0 48 48"
     display="inline-block"
     vertical-align="middle"
@@ -103,7 +103,7 @@
 <span class="line"><span>  -v /opt/redis/data:/data \</span></span>
 <span class="line"><span>  --restart unless-stopped \</span></span>
 <span class="line"><span>  redis:redis \</span></span>
-<span class="line"><span>  redis-server /usr/local/etc/redis/redis.conf</span></span></code></pre></div><h2 id="minio镜像" tabindex="-1">Minio镜像 <a class="header-anchor" href="#minio镜像" aria-label="Permalink to &quot;Minio镜像&quot;">​</a></h2><p>minio是一个可供oss本地对象存储服务;</p><blockquote><p>目前minio已经不再提供免费开源服务,如果<code>DockerHub</code>官方仓库已经没有可拉去的镜像;</p><p>如果DockerHub已经没有minio的镜像且需要minio用于非商业用途可以到kimo的网站中安装;</p><p>下载地址:<a href="http://192.168.1.100:80">测试安装地址</a>;</p></blockquote><h3 id="部署方式-3" tabindex="-1">部署方式 <a class="header-anchor" href="#部署方式-3" aria-label="Permalink to &quot;部署方式&quot;">​</a></h3><h4 id="镜像拉取-3" tabindex="-1">镜像拉取 <a class="header-anchor" href="#镜像拉取-3" aria-label="Permalink to &quot;镜像拉取&quot;">​</a></h4><p>从<code>DockerHub</code>中拉取镜像;或者到up的网站中安装</p><div class="language-shell vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">shell</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">minio/minio:RELEASE.2025-04-22T22-12-26Z</span></span></code></pre></div><h4 id="容器开启-3" tabindex="-1">容器开启 <a class="header-anchor" href="#容器开启-3" aria-label="Permalink to &quot;容器开启&quot;">​</a></h4><p>基于镜像开启一个容器;</p><div class="language-shell vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">shell</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">docker</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> run</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -d</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> \</span></span>
+<span class="line"><span>  redis-server /usr/local/etc/redis/redis.conf</span></span></code></pre></div><h2 id="minio镜像" tabindex="-1">Minio镜像 <a class="header-anchor" href="#minio镜像" aria-label="Permalink to &quot;Minio镜像&quot;">​</a></h2><p>minio是一个可供oss本地对象存储服务;</p><blockquote><p>目前minio已经不再提供免费开源服务,如果<code>DockerHub</code>官方仓库已经没有可拉去的镜像;</p><p>如果DockerHub已经没有minio的镜像且需要minio用于非商业用途可以到kimo的网站中安装;</p><p>下载地址:<a href="">安装地址</a>;</p></blockquote><h3 id="部署方式-3" tabindex="-1">部署方式 <a class="header-anchor" href="#部署方式-3" aria-label="Permalink to &quot;部署方式&quot;">​</a></h3><h4 id="镜像拉取-3" tabindex="-1">镜像拉取 <a class="header-anchor" href="#镜像拉取-3" aria-label="Permalink to &quot;镜像拉取&quot;">​</a></h4><p>从<code>DockerHub</code>中拉取镜像;或者到up的网站中安装</p><div class="language-shell vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">shell</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">minio/minio:RELEASE.2025-04-22T22-12-26Z</span></span></code></pre></div><h4 id="容器开启-3" tabindex="-1">容器开启 <a class="header-anchor" href="#容器开启-3" aria-label="Permalink to &quot;容器开启&quot;">​</a></h4><p>基于镜像开启一个容器;</p><div class="language-shell vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">shell</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">docker</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> run</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -d</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> \</span></span>
 <span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">  --name</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> minio</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> \</span></span>
 <span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">  -p</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> 9000:9000</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> \</span></span>
 <span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">  -p</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> 9001:9001</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> \</span></span>
